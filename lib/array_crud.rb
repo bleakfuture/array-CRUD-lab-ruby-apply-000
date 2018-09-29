@@ -9,11 +9,11 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
- add_element_to_start_of_array << "array", "element"
+ add_element_to_end_of_array << "array", "element"
 end
 
 def add_element_to_start_of_array(array, element)
-  
+element = add_element_to_start_of_array.shift
 end
 
 def remove_element_from_end_of_array(array)
